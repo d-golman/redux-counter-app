@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#root{
+    position: absolute;
+    background: linear-gradient(180deg, #0837B0 0%, #021E66 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.showbox{
+    background-color: white;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+.showbox > h1{
+    line-height: 300px;
+    font-size: 150px;
+    font-weight: 500;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.buttons{
+    width: 100%;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.uploads{
+    width: 66%;
+    visibility: hidden;
+}
+
+.btn{
+    width: 65px;
+    height: 65px;
+    border-radius: 4px;
+}
+
+/* buttons */
+#inc{
+    background: url('./images/plus\ group.png') no-repeat center center;
+}
+#dec{
+    background: url('./images/minus\ group.png') no-repeat center center;
+}
+#cls{
+    background: url('./images/reset\ group.png') no-repeat center center;
+}
+#download{
+    background: url('./images/Download.png') no-repeat center center;
+}
+#upload{
+    background: url('./images/Upload.png') no-repeat center center;
+}
+/* buttons end */
